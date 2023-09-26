@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tokyo Ghoul Forum</title>
+  <style>
+    /* Reset some default styles */
+    body, h1, h2, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Apply a dark background color */
+    body {
+      font-family: "Arial, sans-serif"; /* Updated font family */
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #1C1C1C; /* Dark gray background color */
+      color: #FFFFFF; /* White text color */
+      font-size: 16px; /* Updated font size */
+    }
+
+    header {
+      background-color: #FF4500; /* Tokyo Ghoul Red background color */
+      color: #FFFFFF; /* Header text color for dark theme */
+      padding: 1rem;
+      text-align: center;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    footer {
+      background-color: #FF4500; /* Tokyo Ghoul Red background color for the footer */
+      color: #FFFFFF; /* Footer text color for dark theme */
+      padding: 1rem;
+      text-align: center;
+      font-size: 14px; /* Updated font size */
+      margin-top: 1rem; /* Add margin to the top */
+    }
+
+    /* Accordion Styling */
+    .accordion {
+      margin-bottom: 1rem;
+      cursor: pointer;
+      border-radius: 50px; /* Rounded corners for the accordion */
+      background-color: #FF4500; /* Tokyo Ghoul Red background color for headers */
+      color: #FFFFFF; /* Header text color for light theme */
+      padding: 1rem;
+    }
+
+    .accordion .content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+
+    .accordion.active .content {
+      max-height: 500px; /* Set a maximum height for the content */
+    }
+
+    /* Character Images */
+    .character-image {
+      width: 100%; /* Make the images fill the container */
+      border-radius: 50%; /* Make the images circular */
+    }
+
+    /* Dark Theme Styling */
+    body.dark-mode {
+      background-color: #660066; /* Dark background color */
+      color: #FF4500; /* Text color for dark theme, Tokyo Ghoul Red */
+    }
+
+    body.dark-mode header,
+    body.dark-mode footer {
+      background-color: #1C1C1C; /* Dark header and footer background color */
+    }
+
+    /* Theme Toggle Button */
+    .theme-toggle {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #FF4500; /* Tokyo Ghoul Red for the theme toggle button */
+      border: none;
+      border-radius: 50px; /* Make it circular */
+      cursor: pointer;
+      color: #FFFFFF; /* White text color for the button */
+      font-weight: bold; /* Make the text bold */
+      text-transform: uppercase; /* Uppercase text */
+      letter-spacing: 1px; /* Add some letter spacing */
+      text-shadow: 1px 1px 2px #000; /* Add a subtle text shadow */
+      transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    }
+
+    .theme-toggle:hover {
+      background-color: #FF6347; /* Lighter red on hover */
+      transform: scale(1.05); /* Slightly scale up the button on hover */
+    }
+
+    /* Text Box Styling */
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      border: none;
+      border-radius: 10px;
+      background-color: #333; /* Darker background color for text boxes */
+      color: #FFF; /* Text color for text boxes */
+      font-size: 14px;
+    }
+
+    /* Button Styling */
+    button[type="submit"] {
+      background-color: #FF4500; /* Tokyo Ghoul Red for buttons */
+      color: #FFF;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #FF6347; /* Lighter red on hover */
+      transform: scale(1.05); /* Slightly scale up the button on hover */
+    }
+
+    /* Label Styling */
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 16px;
+      font-weight: bold;
+      color: #FF4500; /* Tokyo Ghoul Red for labels */
+    }
+  </style>
+</head>
+<body>
+  <!-- Your HTML content remains the same here -->
+</body>
+</html>
